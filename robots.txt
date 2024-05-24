@@ -1,4 +1,0 @@
-Sitemap: https://philipholy.com/sitemap.xml
-
-User-agent: *
-Disallow:
