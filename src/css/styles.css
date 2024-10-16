@@ -1,0 +1,44 @@
+body {
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    height: 100%;
+    background-color: #ccd5ae;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1 {
+    margin: 2rem;
+}
+
+.intro {
+    font-size: 5em;
+}
+
+.avatar {
+    width: 20em;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.socials {
+    width: 4em;
+    padding: 1.5rem;
+}
+
+@media (max-width:893px) {
+    .intro {
+        font-size: 2.5em;
+    }
+
+    .avatar {
+        width: 15em;
+        max-width: 100%;
+        height: auto;
+    }
+}
